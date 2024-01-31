@@ -1,0 +1,6 @@
+sudo apt update
+Ele irá atualizar as dependências do sistema operacional.
+sudo apt install ca-certificates wget -y
+sudo wget https://get.glennr.nl/unifi/install/unifi-5.11.39.sh
+sudo chmod +x unifi-5.11.39.sh
+sudo ./unifi-5.11.39.sh
